@@ -1,4 +1,2 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
+echo "🔍 Running lint & format check before commit..."
 npx lint-staged
