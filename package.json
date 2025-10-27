@@ -19,7 +19,14 @@
     "type": "git",
     "url": "git+https://github.com/ngetikin/learn-web-company-profile-1.git"
   },
-  "keywords": [],
+  "keywords": [
+    "css",
+    "html",
+    "js",
+    "company-profile",
+    "ngetikin",
+    "belajar-company-profile"
+  ],
   "author": "ngetikin",
   "license": "ISC",
   "type": "commonjs",
