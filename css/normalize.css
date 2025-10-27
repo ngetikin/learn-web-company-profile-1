@@ -1,0 +1,47 @@
+/* Normalize.css v8.0.1 - Key Examples */
+
+/* Document */
+html {
+  line-height: 1.15; /* Correct line height in all browsers */
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in iOS */
+}
+
+/* Sections */
+body {
+  margin: 0; /* Remove default margin */
+}
+
+main {
+  display: block; /* Render consistently in IE */
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; /* Correct margin in Chrome, Firefox, Safari */
+}
+
+/* Grouping content */
+hr {
+  box-sizing: content-box; /* Show overflow in Edge and IE */
+  height: 0;
+  overflow: visible;
+}
+
+/* Text-level semantics */
+abbr[title] {
+  border-bottom: none; /* Remove underline in Chrome 57- */
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/* Forms */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* Correct font inheritance */
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
