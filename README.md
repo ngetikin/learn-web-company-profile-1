@@ -14,8 +14,7 @@ learn-web-company-profile-1/
 ├── assets/
 │   ├── images/
 │   ├── icons/
-│   ├── fonts/
-│   └── videos/           # (optional)
+│   ├── fonts/           # (optional)
 ├── css/
 │   ├── style.css
 │   └── normalize.css
