@@ -15,12 +15,6 @@
     "build": "rm -rf dist && mkdir dist && npm run build:css && npm run build:js && npm run build:html && npm run build:assets",
     "deploy": "npm run build && gh-pages -d dist"
   },
-  "lint-staged": {
-    "*.{js,css,html}": [
-      "prettier --write",
-      "eslint --fix"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ngetikin/learn-web-company-profile-1.git"
@@ -37,7 +31,6 @@
     "@eslint/css": "^0.13.0",
     "@eslint/js": "^9.38.0",
     "@eslint/json": "^0.13.2",
-    "@eslint/markdown": "^7.5.0",
     "csso-cli": "^4.0.2",
     "eslint": "^9.38.0",
     "gh-pages": "^6.3.0",
