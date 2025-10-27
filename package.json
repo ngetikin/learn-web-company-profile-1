@@ -8,11 +8,12 @@
     "lint": "eslint . --fix",
     "prepare": "husky",
     "dev": "lite-server",
+    "start": "lite-server --baseDir=dist",
     "build:css": "npx csso css/style.css --output dist/style.min.css",
     "build:js": "npx uglify-js js/main.js -o dist/main.min.js",
     "build:html": "npx html-minifier-terser index.html -o dist/index.html --collapse-whitespace --remove-comments --minify-css true --minify-js true",
     "build:assets": "mkdir -p dist/assets && cp -r assets/* dist/assets/",
-    "build": "rm -rf dist && mkdir dist && npm run build:css && npm run build:js && npm run build:html && npm run build:assets",
+    "build": "npm run format && npm run lint && rm -rf dist && mkdir dist && npm run build:css && npm run build:js && npm run build:html && npm run build:assets",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "repository": {
