@@ -6,7 +6,7 @@
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint . --fix",
-    "prepare": "husky install",
+    "prepare": "husky",
     "dev": "lite-server",
     "build:css": "npx csso css/style.css --output dist/style.min.css",
     "build:js": "npx uglify-js js/main.js -o dist/main.min.js",
