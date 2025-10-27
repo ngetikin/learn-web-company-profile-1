@@ -16,7 +16,11 @@ learn-web-company-profile-1/
 │   ├── icons/
 │   ├── fonts/
 │   └── videos/           # (optional)
-├── main.js
+├── css/
+│   ├── style.css
+│   └── normalize.css
+├── js/
+│   └── main.js
 ├── style.css
 ├── index.html
 └── README.md
