@@ -30,12 +30,13 @@ body {
 
 #hero {
   background-color: var(--bg-secondary-color);
+  margin-bottom: 100vh;
 }
 
 #hero .container {
   margin-top: 85px;
   padding-top: 96px;
-  padding-bottom: 96px;
+  padding-bottom: 80px;
 }
 
 #hero .wrapper {
@@ -58,6 +59,7 @@ body {
 }
 
 #hero p {
+  margin-top: -42px;
   color: #717171;
 }
 
@@ -72,4 +74,24 @@ body {
 
 #hero img {
   width: 391px;
+}
+
+#hero .dot {
+  margin: 0 auto;
+  padding: 16px 0;
+  display: flex;
+  gap: 8px;
+  width: fit-content;
+}
+
+#hero .dot > div {
+  width: 10px;
+  height: 10px;
+  background-color: #4caf4f;
+  border-radius: 999px;
+  opacity: 0.3;
+}
+
+#hero .dot > div:nth-child(1) {
+  opacity: 1;
 }
