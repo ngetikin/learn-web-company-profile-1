@@ -29,12 +29,12 @@ body {
 }
 
 #hero {
+  padding-top: 85px;
   background-color: var(--bg-secondary-color);
   margin-bottom: 100vh;
 }
 
 #hero .container {
-  margin-top: 85px;
   padding-top: 96px;
   padding-bottom: 80px;
 }
@@ -94,4 +94,59 @@ body {
 
 #hero .dot > div:nth-child(1) {
   opacity: 1;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+}
+
+#navbar .container {
+  height: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar img {
+  height: 24px;
+}
+
+#navbar .link-wrapper {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#navbar a:hover {
+  transition-duration: 300ms;
+}
+#navbar a:hover {
+  opacity: 0.8;
+}
+
+#navbar .button-wrapper {
+  display: flex;
+  gap: 14px;
+}
+
+#navbar button {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+#navbar .login {
+  color: #4caf4f;
+}
+
+#navbar .signin {
+  color: #fff;
+  background-color: #4caf4f;
 }
