@@ -184,6 +184,7 @@ body {
 #community .container {
   padding-bottom: 42px;
 }
+
 #community h2 {
   max-width: 542px;
   font-size: 36px;
@@ -192,6 +193,7 @@ body {
   margin: 0 auto;
   color: #4d4d4d;
 }
+
 #community .container > p {
   color: #717171;
   font-size: 16px;
@@ -212,9 +214,11 @@ body {
   box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
   border-radius: 8px;
 }
+
 #community .community-wrapper img {
   height: 65px;
 }
+
 #community .community-wrapper h3 {
   width: 60%;
   margin: 16px auto 8px;
@@ -227,4 +231,41 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #717171;
+}
+
+#highlight .container {
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#highlight img {
+  padding: 52px 0;
+}
+
+#highlight .highlight-wrapper {
+  max-width: 550px;
+}
+
+#highlight h2 {
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+#highlight p {
+  color: #717171;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 16px 0 32px;
+}
+
+#highlight button {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 14px 32px;
+  background-color: #4caf4f;
+  border-radius: 4px;
 }
