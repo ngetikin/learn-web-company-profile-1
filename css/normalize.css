@@ -3,6 +3,11 @@ https://serp.co/tools/css-reset/
 <link rel="stylesheet" href="https://css.serp.co/css-reset/normalize.css/">
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Document
    ========================================================================== */
 
@@ -42,7 +47,6 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
 }
 
 /* Grouping content
