@@ -294,6 +294,10 @@ body {
   color: #18191f;
 }
 
+#stats {
+  background-color: #f5f7fa;
+}
+
 #stats .counts {
   width: 540px;
   display: flex;
@@ -325,4 +329,39 @@ body {
 
 #stats .counts p {
   color: #717171;
+}
+
+#calender {
+  margin: 48px 0;
+}
+
+#calender .container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#calender .container div {
+  width: 600px;
+}
+
+#calender h2 {
+  color: #4d4d4d;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+#calender p {
+  color: #717171;
+  font-size: 16px;
+  padding: 16px 0 32px;
+}
+
+#calender button {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 14px 32px;
+  background-color: #4caf4f;
+  border-radius: 4px;
 }
