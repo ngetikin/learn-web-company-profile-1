@@ -478,3 +478,29 @@ body {
   font-weight: 600;
   color: #4caf4f;
 }
+
+#cta {
+  background-color: #f5f7fa;
+  padding: 32px;
+}
+
+#cta h2 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #263238;
+  text-align: center;
+  margin: 0 0 32px 0;
+}
+
+#cta button {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 14px 32px;
+  background-color: #4caf4f;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 8px;
+}
