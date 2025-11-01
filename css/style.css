@@ -269,3 +269,60 @@ body {
   background-color: #4caf4f;
   border-radius: 4px;
 }
+
+#stats .container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#stats .heading h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+#stats .heading span {
+  color: #4caf4f;
+}
+
+#stats .heading p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #18191f;
+}
+
+#stats .counts {
+  width: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+}
+
+#stats .counts > div {
+  width: 255px;
+  display: flex;
+}
+
+#stats .counts img {
+  height: 48px;
+}
+
+#stats .counts > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#stats .counts span {
+  font-size: 28px;
+  font-weight: 700;
+  color: #4d4d4d;
+}
+
+#stats .counts p {
+  color: #717171;
+}
